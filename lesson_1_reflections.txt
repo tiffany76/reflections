@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+The diff command compares two files, no matter how large they are, and draws
+your attention to lines which are different in each file.  By focusing on
+the lines that differ, it is easy to see where changes were made and how 
+errors were introduced.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+If you need to revert to an old version of the file, you won't have to
+manually code the changes.  You can simply pull up the old version.
+
+What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+
+Automatically saving means you are less likely to lose changes if you forget
+to save.  But automatically saving also creates a large number versions that
+would become unwieldy and hard to understand.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+It probably has to do with the likelihood of interconnected files.  With Git,
+it's intended for coding files, which are connected to make a program. 
+Google Docs, on the other hand, is generally more of a word processor, and
+the files created are independent of each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log gives you a list of all commits in that directory or repository. Each 
+commit has an ID that can be copied and used to compare two commits using the
+git diff command.  You can also use git log --stat to see which files changed
+and how many changes were made.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+You will have saved an older version of the code, so if you do end up breaking
+something, you can checkout a previous commit until you find the bug cause, or
+I think you could just start over from that older point.  Essentially, you can
+unbreak the program by going back to an older version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I created a blog for an HTML and CSS course I took.  The files were saved in
+versions by course week.  It would be cool to use Git to keep the versions all
+in one place.

@@ -17,3 +17,18 @@ valuable because it lets you stop and think about which files have changed,
 which files are related, and which ones should be included in a single
 commit.
 
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+After placing your changed files into the staging area, you can run git diff 
+--staged to see the changes from the most recent commit.  If there are too many
+changes to be logically grouped together, you can remove files from the staging
+area and add them to a separate commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized?  How would branches help?
+
+If you want to experiment with new features or a dramatic change, branches would
+be useful.  You'd be able to keep your master branch alive while adding new code 
+to a different branch.  If the new idea didn't work out, no harm done.  If it 
+does, you can merge the two branches.

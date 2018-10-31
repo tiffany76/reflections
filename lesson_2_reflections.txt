@@ -32,3 +32,10 @@ If you want to experiment with new features or a dramatic change, branches would
 be useful.  You'd be able to keep your master branch alive while adding new code 
 to a different branch.  If the new idea didn't work out, no harm done.  If it 
 does, you can merge the two branches.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams are useful because they allow you to see which commits are related
+(i.e. parent and child) and which commits are reachable.  They also help you
+see where branches have split from master and where they have been merged back
+in.

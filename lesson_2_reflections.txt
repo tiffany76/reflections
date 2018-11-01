@@ -39,3 +39,11 @@ Diagrams are useful because they allow you to see which commits are related
 (i.e. parent and child) and which commits are reachable.  They also help you
 see where branches have split from master and where they have been merged back
 in.
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+Merging two branches joins and reconciles the changes made to each branch into 
+one branch.  The old commits for each branch are still reachable via the new, 
+merged branch.  We represent the new merged branch in diagrams with lines to each
+of its parents because the new branch retains references to both parents.

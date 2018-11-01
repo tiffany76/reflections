@@ -47,3 +47,15 @@ Merging two branches joins and reconciles the changes made to each branch into
 one branch.  The old commits for each branch are still reachable via the new, 
 merged branch.  We represent the new merged branch in diagrams with lines to each
 of its parents because the new branch retains references to both parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+Automatic merging saves time if the changes were to different parts of the code.
+If there is no potential for conflict, there is no need to do a manual merge.  On
+the other hand, if changes occur in the same location in the code, it is a good 
+idea to stop and think before going through with the merge.  You may need to 
+have a conversation with your team, or you may have to review your own decisions 
+to see which one makes sense.  Although there may be times that the decision is
+obvious, it's still a better option for Git to prompt you about the merge than
+for it to automatically decide.

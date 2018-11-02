@@ -9,3 +9,22 @@ stay up-to-date with your remote repository?
 
 A collaborator may have made changes to the remote that would affect your own changes, 
 in which case you would want to have control over when those changes are incorporated.
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+A branch is a set of commits relating to a common purpose (i.e. master, new feature, 
+experiments, etc.).  A clone is a copy of an entire repository and all the commits and
+branches it contains.  Clones can be made on the same machine or different machines.
+A fork is a clone created by GitHub on its machines.  You cannot fork to different
+machines; doing so is simply cloning.  Branching is good practice when you're working
+within a repository and want to keep one version of the code in operable condition.
+By creating branches, you can test out other ideas without fear of breaking the 
+master version.  Cloning is useful when you're joining a new project or switching
+machines.  You can create a copy of the entire repository on your machine without
+having to recreate the actual code.  Forking is useful if you find an open source 
+repository on GitHub that you would like to alter for your purposes.  You can fork
+the repository to your own account, thereby creating a copy which lives on GitHub's
+servers.  If you want to work on that repository, you can clone it to your own
+computer.  And if you want to keep a working master branch, you can create a new 
+branch for your edits.

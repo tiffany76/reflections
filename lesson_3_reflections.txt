@@ -35,3 +35,12 @@ locally?
 Having a local copy of the remote allows you to work offline and compare your changes
 to those on the remote. If you're sure that the local copy is up-to-date, you can
 also merge the origin/master into master with confidence.
+
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+Collaborating without Git and GitHub would either require a lot of in-person discussion
+or a different, asynchronous software or tool.  In-person discussions can be 
+inefficient, especially if the meetings get sidetracked.  Using another tool, like
+Google Docs would also be inefficient because it would be hard to create versions and
+join those versions together.

@@ -44,3 +44,14 @@ or a different, asynchronous software or tool.  In-person discussions can be
 inefficient, especially if the meetings get sidetracked.  Using another tool, like
 Google Docs would also be inefficient because it would be hard to create versions and
 join those versions together.
+
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+You would pretty much never want to make changes directly in master.  Master is 
+usually intended to be the unbroken, operable branch of your code.  If you're 
+not sure how your changes will affect the code, or if you are collaborating with 
+others who are working in the same repository, you must commit changes to a 
+separate branch before merging them with master.  This keeps the master branch
+intact and working properly.  It also gives you and your team an opportunity
+to discuss when, where and how to make changes.

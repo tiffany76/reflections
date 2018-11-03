@@ -28,3 +28,10 @@ the repository to your own account, thereby creating a copy which lives on GitHu
 servers.  If you want to work on that repository, you can clone it to your own
 computer.  And if you want to keep a working master branch, you can create a new 
 branch for your edits.
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+Having a local copy of the remote allows you to work offline and compare your changes
+to those on the remote. If you're sure that the local copy is up-to-date, you can
+also merge the origin/master into master with confidence.
